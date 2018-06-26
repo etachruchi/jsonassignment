@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>json assihnment</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="ab">
+        <h1>Assignment5</h1>
+
+        <div>Firstname:
+            <span id="fname"></span>
+        </div>
+        <div>Lastname
+            <Lastname: <span id="lname">
+                </span>
+        </div>
+        <div>DOB:
+            <span id="dob"></span>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            var ab;
+            ab = {
+                "firstname": "ruchi",
+                "lastname": "gautam",
+                "dob": "15-12-1995",
+            };
+
+            $("#fname").text(ab.firstname);
+            $("#lname").text(ab.lastname);
+            $("#dob").text(ab.dob);
+
+        });
+    </script>
+</body>
+
+</html>
