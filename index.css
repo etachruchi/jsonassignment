@@ -1,0 +1,14 @@
+.ab {
+    width: 189px;
+    padding: 0 50px 20px;
+    background: linear-gradient(#FFF, #CEBA53);
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px;
+    font-family: 'Marcellus', serif;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+h1 {
+    text-align: center;
+}
